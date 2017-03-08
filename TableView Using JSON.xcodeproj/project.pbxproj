@@ -12,6 +12,8 @@
 		DD58B3881E6DEB9000EA1C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58B3861E6DEB9000EA1C3F /* Main.storyboard */; };
 		DD58B38A1E6DEB9000EA1C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58B3891E6DEB9000EA1C3F /* Assets.xcassets */; };
 		DD58B38D1E6DEB9000EA1C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58B38B1E6DEB9000EA1C3F /* LaunchScreen.storyboard */; };
+		DD58B3B71E6DFCF800EA1C3F /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58B3B61E6DFCF800EA1C3F /* PhotoTableViewController.swift */; };
+		DD58B3B91E6E710D00EA1C3F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58B3B81E6E710D00EA1C3F /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD58B3891E6DEB9000EA1C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD58B38C1E6DEB9000EA1C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD58B38E1E6DEB9000EA1C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD58B3B61E6DFCF800EA1C3F /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		DD58B3B81E6E710D00EA1C3F /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DD58B3891E6DEB9000EA1C3F /* Assets.xcassets */,
 				DD58B38B1E6DEB9000EA1C3F /* LaunchScreen.storyboard */,
 				DD58B38E1E6DEB9000EA1C3F /* Info.plist */,
+				DD58B3B61E6DFCF800EA1C3F /* PhotoTableViewController.swift */,
+				DD58B3B81E6E710D00EA1C3F /* Photo.swift */,
 			);
 			path = "TableView Using JSON";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD58B3B91E6E710D00EA1C3F /* Photo.swift in Sources */,
 				DD58B3851E6DEB9000EA1C3F /* ViewController.swift in Sources */,
+				DD58B3B71E6DFCF800EA1C3F /* PhotoTableViewController.swift in Sources */,
 				DD58B3831E6DEB9000EA1C3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				DD58B3931E6DEB9000EA1C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
